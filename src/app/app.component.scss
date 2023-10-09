@@ -1,0 +1,77 @@
+.mat-drawer-container {
+  background-color: transparent;
+}
+
+.content {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+  .close {
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 1.2em;
+    span {
+      font-family: "Arial" !important;
+      transform: scaleY(0.8);
+      cursor: pointer;
+    }
+  }
+  .image {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    border-radius: 100%;
+    box-shadow: 0 0 20px black inset;
+  }
+  .name {
+    text-transform: uppercase;
+    color: #ab966f;
+    background: url(https://darksouls.wiki.fextralife.com/file/Dark-Souls-3/bonfire.png)
+      no-repeat left;
+    background-size: contain;
+    padding-left: 2em;
+  }
+
+  .description {
+    font-size: 0.9em;
+  }
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2em;
+  .logo {
+    width: 400px;
+    height: 50px;
+    background: url("/assets/images/ds-logo-400.png") no-repeat center;
+    margin: 2em 0 0;
+  }
+  .subtitle {
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 0 1px 7px #bb947c;
+  }
+}
+
+.back {
+  margin: 3em 0;
+  .btn {
+    background: none;
+    border: none;
+    font-size: 1em;
+    text-transform: uppercase;
+    color: #ab966f;
+    cursor: pointer;
+    &:hover {
+      text-decoration: line-through;
+    }
+  }
+}

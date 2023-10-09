@@ -1,0 +1,16 @@
+<div class="container spacing">
+  <div class="text">
+    <p>
+      Essa é uma aplicação desenvolvida para demonstrar como utilizar um
+      <i>Drawer / Sidenav</i> com conteúdo dinâmico. Clicando nos links abaixo,
+      você poderá visualizar os detalhes dos itens dentro do Sidenav.
+    </p>
+  </div>
+  <div class="pages">
+    <ul class="list">
+      <li class="page" *ngFor="let page of pages">
+        <a [routerLink]="page.path">{{ page.title }}</a>
+      </li>
+    </ul>
+  </div>
+</div>

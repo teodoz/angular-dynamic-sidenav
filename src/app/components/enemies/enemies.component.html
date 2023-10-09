@@ -1,0 +1,13 @@
+<div class="container spacing">
+  <h2>Inimigos</h2>
+  <p>
+    Os inimigos em Dark Souls e Dark Souls Remastered são NPCs hostis e
+    criaturas que atacam o jogador.
+  </p>
+  <div class="enemies">
+    <h3>Alguns inimigos:</h3>
+    <div class="enemy" *ngFor="let enemy of enemies">
+      <button class="btn" (click)="showDetail(enemy)">{{ enemy.name }}</button>
+    </div>
+  </div>
+</div>

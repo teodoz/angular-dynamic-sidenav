@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap");
+html,
+body {
+  height: 100%;
+  background-color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Lora", serif !important;
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
+.spacing {
+  padding: 2em;
+}
+
+.mat-drawer {
+  background-color: black !important;
+  width: 70vw;
+}
